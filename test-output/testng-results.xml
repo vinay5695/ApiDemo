@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-07T16:46:18 IST" name="Default suite" finished-at="2023-03-07T16:46:24 IST" duration-ms="5952">
+  <suite started-at="2023-03-07T20:15:44 IST" name="Default suite" finished-at="2023-03-07T20:15:49 IST" duration-ms="5023">
     <groups>
     </groups>
-    <test started-at="2023-03-07T16:46:18 IST" name="Default test" finished-at="2023-03-07T16:46:24 IST" duration-ms="5952">
+    <test started-at="2023-03-07T20:15:44 IST" name="Default test" finished-at="2023-03-07T20:15:49 IST" duration-ms="5023">
       <class name="RestAssuredTests.RestAssuredDemotests">
-        <test-method is-config="true" signature="commonutil()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:18 IST" name="commonutil" finished-at="2023-03-07T16:46:19 IST" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="commonutil()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:44 IST" name="commonutil" finished-at="2023-03-07T20:15:44 IST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonutil -->
-        <test-method signature="getDelayedResponse()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:19 IST" name="getDelayedResponse" finished-at="2023-03-07T16:46:23 IST" duration-ms="3890" status="PASS">
+        <test-method signature="getDelayedResponse()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:44 IST" name="getDelayedResponse" finished-at="2023-03-07T20:15:47 IST" duration-ms="2928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDelayedResponse -->
-        <test-method signature="getListUsers()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:23 IST" name="getListUsers" finished-at="2023-03-07T16:46:23 IST" duration-ms="378" status="PASS">
+        <test-method signature="getListUsers()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:47 IST" name="getListUsers" finished-at="2023-03-07T20:15:48 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListUsers -->
-        <test-method signature="getSingleResource()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:23 IST" name="getSingleResource" finished-at="2023-03-07T16:46:23 IST" duration-ms="301" status="PASS">
+        <test-method signature="getSingleResource()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:48 IST" name="getSingleResource" finished-at="2023-03-07T20:15:48 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleResource -->
-        <test-method signature="getSingleUser()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:23 IST" name="getSingleUser" finished-at="2023-03-07T16:46:24 IST" duration-ms="279" status="PASS">
+        <test-method signature="getSingleUser()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:48 IST" name="getSingleUser" finished-at="2023-03-07T20:15:48 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
-        <test-method signature="getSingleUserNotFound()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@25fb8912]" started-at="2023-03-07T16:46:24 IST" name="getSingleUserNotFound" finished-at="2023-03-07T16:46:24 IST" duration-ms="267" status="PASS">
+        <test-method signature="getSingleUserNotFound()[pri:0, instance:RestAssuredTests.RestAssuredDemotests@54a7079e]" started-at="2023-03-07T20:15:48 IST" name="getSingleUserNotFound" finished-at="2023-03-07T20:15:49 IST" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUserNotFound -->
