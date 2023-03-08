@@ -36,7 +36,7 @@ public class RestAssuredDemotests {
 		   .header("content-type", "application/json; charset=utf-8").extract().response();
 		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
 	}
-	
+	//test command masi
 	@Test
 	public void getListUsers()
 	{
