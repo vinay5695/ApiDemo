@@ -20,7 +20,7 @@ public class RestAssuredDemotests {
 	{
 		RestAssured.baseURI=util.baseurl;
 	}
-	
+	//used for testing
 	@Test
 	public void getSingleUser()
 	{		
