@@ -36,7 +36,7 @@ public class RestAssuredDemotests {
 		   .header("content-type", "application/json; charset=utf-8").extract().response();
 		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
 	}
-	
+	//test command masi
 	@Test
 	public void getListUsers()
 	{
@@ -90,6 +90,23 @@ public class RestAssuredDemotests {
 		   .statusCode(util.statuscode)
 		   .statusLine(util.statusline)
 		   .body("data.color",equalTo("#C74375"))
+<<<<<<< HEAD
 		   .header("content-type", "application/json; charset=utf-8");		
 	}
+=======
+		   .header("content-type", "application/json; charset=utf-8");	
+		
+	}
+	@Test
+	public void getSingleResource8()
+	{
+		RestAssured.basePath="/api/unknown/8";
+		given()
+		.when()
+		   .get()
+		.then()
+		   .statusCode(util.statuscode)
+		   .header("content-type", "application/json; charset=utf-8");		
+	}
+>>>>>>> masi_jenkin
 }
