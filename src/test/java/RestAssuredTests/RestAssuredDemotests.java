@@ -94,9 +94,9 @@ public class RestAssuredDemotests {
 		
 	}
 	@Test
-	public void getSingleResource7()
+	public void getSingleResource8()
 	{
-		RestAssured.basePath="/api/unknown/7";
+		RestAssured.basePath="/api/unknown/8";
 		given()
 		.when()
 		   .get()
