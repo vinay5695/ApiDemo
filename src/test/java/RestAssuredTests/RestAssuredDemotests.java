@@ -1,6 +1,7 @@
 package RestAssuredTests;
 
 import org.testng.Assert;
+
 import org.testng.annotations.*;
 
 import io.restassured.RestAssured;
@@ -11,6 +12,7 @@ import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class RestAssuredDemotests {
 	
@@ -110,6 +112,25 @@ public class RestAssuredDemotests {
 		
 
 		
+	}
+	
+	@Test
+	public void getDoubleleUser()
+	{		
+		RestAssured.basePath="/api/users/3";
+		
+		Response response=
+		given()
+		.when()
+		   .get()
+		.then()
+		   .statusCode(util.statuscode)
+		   .statusLine(util.statusline)
+		   .assertThat().body("data.id", equalTo(3))
+		   .header("content-type", "application/json; charset=utf-8").extract().response();
+		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
+//		String jsonstring=response.asString();
+//		Assert.assertEquals(jsonstring.contains("janet.weaver@reqres.in"), true);
 	}
 	
 //	@Test
