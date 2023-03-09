@@ -23,6 +23,7 @@ public class RestAssuredDemotests {
 	//used for testing masi
 	//used for testing vinay
 	//used for masi
+	//used for test
 	@Test
 	public void getSingleUser()
 	{		
