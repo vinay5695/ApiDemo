@@ -22,7 +22,10 @@ public class RestAssuredDemotests {
 	{
 		RestAssured.baseURI=util.baseurl;
 	}
-	//used for testing
+	//used for testing masi
+	//used for testing vinay
+	//used for masi
+	//used for test
 	@Test
 	public void getSingleUser()
 	{		
@@ -39,6 +42,9 @@ public class RestAssuredDemotests {
 		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
 	}
 	//test command masi
+	//test masi
+	//test masiiii
+	//test command masi2
 	@Test
 	public void getListUsers()
 	{
@@ -92,6 +98,7 @@ public class RestAssuredDemotests {
 		   .statusCode(util.statuscode)
 		   .statusLine(util.statusline)
 		   .body("data.color",equalTo("#C74375"))
+<<<<<<< HEAD
 
 		   .header("content-type", "application/json; charset=utf-8");		
 	}
@@ -108,6 +115,11 @@ public class RestAssuredDemotests {
 		
 		Response response=
 =======
+=======
+		   .header("content-type", "application/json; charset=utf-8");		
+	}		
+	
+>>>>>>> masi_jenkin
 	@Test
 	public void getSingleResource8()
 	{
@@ -149,5 +161,8 @@ public class RestAssuredDemotests {
 =======
 		   .header("content-type", "application/json; charset=utf-8");		
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> masi_jenkin
 }

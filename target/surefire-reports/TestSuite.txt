@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.848 s - in TestSuite
+=======
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.648 s - in TestSuite
+>>>>>>> masi_jenkin
