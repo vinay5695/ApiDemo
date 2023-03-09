@@ -20,7 +20,7 @@ public class RestAssuredDemotests {
 	{
 		RestAssured.baseURI=util.baseurl;
 	}
-	//used for testing
+	//used for testing vinay
 	@Test
 	public void getSingleUser()
 	{		
@@ -36,7 +36,7 @@ public class RestAssuredDemotests {
 		   .header("content-type", "application/json; charset=utf-8").extract().response();
 		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
 	}
-	//test command masi
+	//test command masi2
 	@Test
 	public void getListUsers()
 	{
