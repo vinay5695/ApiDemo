@@ -98,7 +98,7 @@ public class RestAssuredDemotests {
 		   .body("data.color",equalTo("#C74375"))
 		   .header("content-type", "application/json; charset=utf-8");		
 	}		
-	}
+	
 	@Test
 	public void getSingleResource8()
 	{
