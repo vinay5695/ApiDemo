@@ -97,10 +97,8 @@ public class RestAssuredDemotests {
 		   .statusCode(util.statuscode)
 		   .statusLine(util.statusline)
 		   .body("data.color",equalTo("#C74375"))
-<<<<<<< HEAD
 		   .header("content-type", "application/json; charset=utf-8");		
 	}
-=======
 		   .header("content-type", "application/json; charset=utf-8");	
 		
 	}
@@ -115,5 +113,4 @@ public class RestAssuredDemotests {
 		   .statusCode(util.statuscode)
 		   .header("content-type", "application/json; charset=utf-8");		
 	}
->>>>>>> masi_jenkin
 }
