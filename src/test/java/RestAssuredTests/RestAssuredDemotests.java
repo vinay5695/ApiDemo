@@ -37,6 +37,7 @@ public class RestAssuredDemotests {
 		Assert.assertTrue(util.jsonStringComparison(response, "janet.weaver@reqres.in"));
 	}
 	//test command masi
+	//test masi
 	@Test
 	public void getListUsers()
 	{
