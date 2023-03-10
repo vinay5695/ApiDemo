@@ -25,6 +25,7 @@ public class RestAssuredDemotests {
 	//used for masi
 	//used for test
 	//used forr masi
+	//used masi
 	@Test
 	public void getSingleUser()
 	{		
