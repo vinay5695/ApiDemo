@@ -1,2 +1,4 @@
 file1
 fulll
+full 3
+rest
