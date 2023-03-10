@@ -2,10 +2,17 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2023-03-09T12:37:06 IST" name="Default suite" finished-at="2023-03-09T12:37:06 IST" duration-ms="31">
     <groups>
     </groups>
     <test started-at="2023-03-09T12:37:06 IST" name="Default test" finished-at="2023-03-09T12:37:06 IST" duration-ms="31">
+=======
+  <suite started-at="2023-03-09T12:51:05 IST" name="Default suite" finished-at="2023-03-09T12:51:05 IST" duration-ms="20">
+    <groups>
+    </groups>
+    <test started-at="2023-03-09T12:51:05 IST" name="Default test" finished-at="2023-03-09T12:51:05 IST" duration-ms="20">
+>>>>>>> 3c3283aa5718df5fafffd1e478796c4ae76030c4
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
