@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkOut') {
+            steps {
+                // Get some code from a GitHub repository
+                git branch: 'main', credentialsId: 'Git', url: 'https://github.com/vinay5695/ApiDemo/'
+            }
+
+        }
+        stage('Build') {
+            steps {
+                //To run Maven on a Windows agent, use
+                bat 'mvn clean install'
+            }
+        }
+    }
+            post {
+        always {
+            //to send mail to recipient
+            emailext body: 'Test Reports shared through jenkins', subject: 'Test Report', to: 'vinayagamaruthiswamy@gmail.com'
+        }
+        }    
+    
+}
